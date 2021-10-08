@@ -14,4 +14,5 @@ Given the mechanical requirement that the variance for any lot cannot exceed 100
 * [lot 1](https://github.com/kowiak89/MechaCar_Statistical_Analysis/blob/main/lot1_ttest.png)
 * [lot 2](https://github.com/kowiak89/MechaCar_Statistical_Analysis/blob/main/lot2_ttest.png)
 * [lot 3](https://github.com/kowiak89/MechaCar_Statistical_Analysis/blob/main/lot3_ttest.png)
+
 In this part of the analysis we performed 4 separate one-sided t-tests.  Each t-test was one-sided because each sample lot was compared to the defined population mean of 1500 PSI.  Of the 4 t-tests only 1 showed a statistically significant result, the test on lot 3.  The p-value was 0.04168.  Since the p-value was less than 0.05 (our pre-determined level of significance) we can conclude that lot 3 is significantly different from the population.  This result indicates that there must be some mechanical error that is causing the coils in this lot to very significantly.  It would be wise to investigate the source of this variance in order to maintain proper production standards.
