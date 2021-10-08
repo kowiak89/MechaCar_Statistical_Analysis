@@ -21,6 +21,7 @@ In this part of the analysis we performed 4 separate one-sided t-tests.  Each t-
 This study will compare the mpg for MechaCar vs all other comparable competitor vehicles.  The study will include a breakdown of city mpg and highway mpg.  Our null hypothesis is that there is no difference between the mean mpg for the mechacar and the competitor vehicles. Our alternative hyptothesis is that there is a difference between the mechacar mpg and its competitors.  To perform this analysis we will use the ANOVA test.  Ideally, this will show that there is a statistical difference between the mechacar and the competitors.  The ANOVA test will give us the first proof that a difference exists, but we will need to follow up with t-tests to show that it is the mechacar that is different from the competitors and not just two competitors cars that are different.
 
 We will need a lot of data to perform this analysis.  We will measure the average mpg for both city and highway for several mechacars and all the competitors to create a table that looks like the following:
+
 Car         | Road Type | MPG
 ------------------------------
 Mechacar    | City      | 34
