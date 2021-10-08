@@ -16,3 +16,16 @@ Given the mechanical requirement that the variance for any lot cannot exceed 100
 * [lot 3](https://github.com/kowiak89/MechaCar_Statistical_Analysis/blob/main/lot3_ttest.png)
 
 In this part of the analysis we performed 4 separate one-sided t-tests.  Each t-test was one-sided because each sample lot was compared to the defined population mean of 1500 PSI.  Of the 4 t-tests only 1 showed a statistically significant result, the test on lot 3.  The p-value was 0.04168.  Since the p-value was less than 0.05 (our pre-determined level of significance) we can conclude that lot 3 is significantly different from the population.  This result indicates that there must be some mechanical error that is causing the coils in this lot to very significantly.  It would be wise to investigate the source of this variance in order to maintain proper production standards.
+
+## Study Design: MechaCar vs Competition
+This study will compare the mpg for MechaCar vs all other comparable competitor vehicles.  The study will include a breakdown of city mpg and highway mpg.  Our null hypothesis is that there is no difference between the mean mpg for the mechacar and the competitor vehicles. Our alternative hyptothesis is that there is a difference between the mechacar mpg and its competitors.  To perform this analysis we will use the ANOVA test.  Ideally, this will show that there is a statistical difference between the mechacar and the competitors.  The ANOVA test will give us the first proof that a difference exists, but we will need to follow up with t-tests to show that it is the mechacar that is different from the competitors and not just two competitors cars that are different.
+
+We will need a lot of data to perform this analysis.  We will measure the average mpg for both city and highway for several mechacars and all the competitors to create a table that looks like the following:
+Car         | Road Type | MPG
+------------------------------
+Mechacar    | City      | 34
+Competitor1 | City      | 30
+Competitor2 | Highway   | 38
+Mechacar    | Highway   | 42
+
+By collecting multiple mpg points for each car we can then run the ANOVA test to determine if there is any difference.  Hopefully this analyis shows that the mechcar far outpaces the competition!!
